@@ -9,8 +9,8 @@
     "test-watch": "nodemon --exec 'npm test'"
   },
   "engines": {
-    "node": "^8.7.0",
-    "npm": "^6.4.0"
+    "node": "11.8.0",
+    "npm": "6.2.0"
   },
   "keywords": [
     "Nodejs",
