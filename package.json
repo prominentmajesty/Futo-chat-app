@@ -5,12 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha utils/**.test.js",
-    "test-watch": "nodemon --exec 'npm test'"
+    "test": "mocha utils/**.test.js"
   },
   "engines": {
-    "node": "11.8.0",
-    "npm": "6.2.0"
+    "node": "11.8.0"
   },
   "keywords": [
     "Nodejs",
@@ -19,7 +17,7 @@
     "javascript",
     "web-development"
   ],
-  "author": "Uzoanya Dominic",
+  "author": "Odoemene",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",

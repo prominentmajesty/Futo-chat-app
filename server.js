@@ -194,8 +194,8 @@ io.on('connection', (socket) => {
              user: message.user,
              typing: message.typing
          });
-     });
-
+     }); 
+  
      socket.on('focusoutEvent', (message) => {
          socket.broadcast.to(message.room).emit('focusout', {
              text: message.info
